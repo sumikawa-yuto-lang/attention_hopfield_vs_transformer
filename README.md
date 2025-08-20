@@ -1,4 +1,4 @@
-# Hopfield–Transformer Benchmark Suite
+# Hopfield vs. Transformer Benchmark Suite
 
 ## 概要
 Modern Hopfield (埋め込みのみ、学習なし) と Transformer (K≠V のデノイズ学習) を **同一条件で比較**するベンチマーク環境です。  
