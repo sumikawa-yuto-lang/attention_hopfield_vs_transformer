@@ -1,0 +1,11 @@
+# Generated from beta_comparison_simple.ipynb
+# Pin exact versions later if必要（再現性重視なら 'pip freeze'でrequirements-lock.txtを別途作成）
+collections
+dataclasses
+ipykernel
+matplotlib
+numpy
+os
+pandas
+torch
+typing
