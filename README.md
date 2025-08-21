@@ -54,4 +54,4 @@ python run_benchmark.py --variant A --alpha 0.5 --beta 2.0 --noise 0.1
 
 - **Hopfield.ipynb**  
   Hopfieldモデルの多パターン記憶を理論的に解析し、想起過程を視覚化。  
-  → [view on GitHub](./Hopfield.ipynb)
+  → [view on GitHub](appendix/Hopfield.ipynb)
