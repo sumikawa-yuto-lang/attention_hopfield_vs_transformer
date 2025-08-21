@@ -5,6 +5,8 @@ Modern Hopfield (埋め込みのみ、学習なし) と Transformer (K≠V の�
 α（パターン数/次元）、β（温度、鋭さ）、ノイズ強度を掃引し、復元オーバーラップを測定します。  
 実測カーブを同一図に重ねて可視化します。
 
+![MHN vs TF](docs/attention_comparison.png)
+
 ---
 
 ## 実行方法
