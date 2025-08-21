@@ -1,7 +1,7 @@
 # Hopfield vs. Transformer Benchmark Suite
 
 ## 概要
-Modern Hopfield (埋め込みのみ、学習なし) と Transformer (K≠V のデノイズ学習) を **同一条件で比較**するベンチマーク環境です。  
+Modern Hopfield（記憶埋め込み、学習なし) と Transformer (K≠V のデノイズ学習) を **同一条件で比較**するベンチマーク環境です。  
 α（パターン数/次元）、β（温度、鋭さ）、ノイズ強度を掃引し、復元オーバーラップを測定します。  
 実測カーブを同一図に重ねて可視化します。
 
