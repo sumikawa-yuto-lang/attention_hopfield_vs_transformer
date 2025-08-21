@@ -15,7 +15,7 @@ Modern Hopfield Network (MHN) は「検索型メモリ」として動作しま�
 
 ## 実行方法
 
-### 1. 依存関係インストール
+### 1. インストール
 ```bash
 pip install -r requirements.txt
 ```
@@ -43,15 +43,15 @@ python run_benchmark.py --variant A --alpha 0.5 --beta 2.0 --noise 0.1
 
 ---
 
-## 再現性への配慮
+## 再現性
 - 乱数 seed を固定
 - 実行ごとに CSV/PNG を自動保存
 - `requirements.txt` で依存関係を明示
 
-## Appendix: 補足資料（研究向け）
+## Appendix: 補足資料（研究内容）
 
 本リポジトリには、修士研究で用いた研究寄りのノートブックや実験成果も併せて公開しています。
 
 - **Hopfield.ipynb**  
-  Hopfieldモデルの多パターン記憶を理論的に解析し、推論過程を視覚化。  
+  Hopfieldモデルの多パターン記憶を理論的に解析し、記憶を思い出す過程を視覚化。  
   → [view on GitHub](appendix/Hopfield.ipynb)
