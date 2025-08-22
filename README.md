@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ### 2. 実行方法
 - Jupyter Notebook を使う場合:
 ```bash
-jupyter notebook beta_comparison_simple.ipynb
+jupyter notebook attention_hopfield_vs_transformer.ipynb
 ```
 
 - Python スクリプトを使う場合（例）:
