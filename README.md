@@ -80,7 +80,7 @@ python run_benchmark.py --variant A --alpha 0.5 --beta 2.0 --noise 0.1
 - **ノイズ耐性評価**  
   データにノイズを加えて復元精度を計測し、ロバスト性を評価
 
-- **理論解析と数値実験の重ね合わせ**（Hopfield Analysis）
+- **理論解析と数値実験の重ね合わせ**（Hopfield Analysis）  
   統計的な理論カーブと実測結果を同一図に重ね、挙動の整合性を検証
   
 
