@@ -11,7 +11,7 @@ Modern Hopfield（記憶埋め込み、学習なし）と Transformer（K≠V �
 復元性能の変化をグラフで可視化できます。
 
 
-・Modern Hopfield とは  
+- Modern Hopfield とは  
 Modern Hopfield Network (MHN) は「検索型メモリ」として動作します。
 入力ベクトル（クエリ）に対して、保存されたパターン（キー・バリュー）の中から最も関連するものを検索し、対応する記憶を呼び出す仕組みです。数理的にはTransformerのAttention機構と同型（K=Vとしたもの）であり、両者は「検索による情報取得」という共通の枠組みで理解できます。
 
@@ -69,3 +69,15 @@ python run_benchmark.py --variant A --alpha 0.5 --beta 2.0 --noise 0.1
 - **Hopfield.ipynb**  
   Hopfieldモデルの多パターン記憶を理論的に解析し、記憶を思い出す過程を視覚化。  
   → [view on GitHub](appendix/Hopfield.ipynb)
+
+- 計算手法
+
+- **パラメータ掃引と相図可視化**  
+  モデル条件をグリッドで変化させ、性能をヒートマップとして可視化  
+
+- **ノイズ耐性評価**  
+  データにノイズを加えて復元精度を計測  
+
+- **理論解析と数値実験の重ね合わせ**  
+  統計的な理論カーブと実測結果を同一図で比較  
+
