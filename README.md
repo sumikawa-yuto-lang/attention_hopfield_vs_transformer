@@ -29,14 +29,9 @@ pip install -r requirements.txt
 ```
 
 ### 2. 実行方法
-- Jupyter Notebook を使う場合:
+- Jupyter Notebook:
 ```bash
 jupyter notebook attention_hopfield_vs_transformer.ipynb
-```
-
-- Python スクリプトを使う場合（例）:
-```bash
-python run_benchmark.py --variant A --alpha 0.5 --beta 2.0 --noise 0.1
 ```
 
 ### 3. variant の指定
