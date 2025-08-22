@@ -48,10 +48,10 @@ python run_benchmark.py --variant A --alpha 0.5 --beta 2.0 --noise 0.1
 ## 出力
 - CSV: `out/records.csv`
 - 図版: `out/summary_perf.png`,`out/summary_2d.png`
-- 出力サンプル  
-本リポジトリには `out/` ディレクトリにサンプル出力
-(`records.csv`, `summary_perf.png`, `summary_2d.png`) を同梱しています。  
-実行すると同様の出力を再生成できます。
+- 出力サンプル:
+![Performance curve](out/summary_perf.png)
+![2D map](out/summary_2d.png)
+
 
 ---
 
