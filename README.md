@@ -13,7 +13,7 @@ Modern Hopfield（記憶埋め込み、学習なし）と Transformer（K≠V �
 
 ・Modern Hopfield とは  
 Modern Hopfield Network (MHN) は「検索型メモリ」として動作します。
-入力ベクトル（クエリ）に対して、保存されたパターン（キー・バリュー）の中から最も関連するものを検索し、対応する記憶を呼び出す仕組みです。数理的にはTransformerのAttention機構と同型であり、両者は「検索による情報取得」という共通の枠組みで理解できます。
+入力ベクトル（クエリ）に対して、保存されたパターン（キー・バリュー）の中から最も関連するものを検索し、対応する記憶を呼び出す仕組みです。数理的にはTransformerのAttention機構と同型であり（K=Vとしたもの）、両者は「検索による情報取得」という共通の枠組みで理解できます。
 
 ![MHN vs TF](docs/attention_cmp.png)  
 
