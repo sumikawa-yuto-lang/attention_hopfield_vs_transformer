@@ -65,6 +65,10 @@ jupyter notebook attention_hopfield_vs_transformer.ipynb
   Hopfieldモデルの多パターン記憶を理論的に解析し、記憶を思い出す過程を視覚化。  
   → [view on GitHub](appendix/Hopfield.ipynb)
 
+- **2mHop_sml_heatmap.ipynb**  
+  モダンHopfieldモデルの記憶可能なパターン数の上限を理論と実験で比較。  
+  → [view on GitHub](appendix/2mHop_sml_heatmap.ipynb)
+  
 ---
 
 ## Appendix: 計算手法
