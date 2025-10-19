@@ -1,7 +1,7 @@
 # Hopfield vs. Transformer Benchmark Suite
 
 ## 概要
-Modern Hopfield（記憶埋め込み、学習なし）と Transformer（K≠V のデノイズ学習）を
+Modern Hopfield（記憶埋め込み、学習なし）と Transformer Attention（K≠V のデノイズ学習）を
 同一条件で比較できるベンチマーク環境です。
 
 ノイズの入った入力データを与え、モデルがどの程度「元の正しいパターン」を復元できるかを評価します。
