@@ -1,4 +1,4 @@
-# Hopfield vs. Transformer Benchmark Suite
+# HopfieldモデルとTransformer Attentionの比較実験コード
 
 ## 概要
 Modern Hopfield（記憶埋め込み、学習なし）と Transformer Attention（K≠V のデノイズ学習）を
